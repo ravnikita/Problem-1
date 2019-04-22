@@ -14,7 +14,6 @@ while i < 1000:
 while k < 1001:
     if k % 5 == 0:
         a = (a + k)
-        print(a)
-        k += 5
+             k += 5
 # Total amount
 print(a + b)
