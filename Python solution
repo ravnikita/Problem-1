@@ -1,0 +1,20 @@
+array = [i + 3 for i in range(998)]  # We set an array. 0,1,2 are not needed, we get rid of them
+# array = [3, 4..999, 1000]
+print(array)
+i = 3  # Seed number in array for multiples 3
+k = 5  # Seed number in array for multiples 5
+a = 0  # Set the variable a
+b = 0  # Set the variable b
+# multiples of 3
+while i < 1000:
+    if i % 3 == 0:
+        b = (b + i)
+        i += 3
+# multiples of 5
+while k < 1001:
+    if k % 5 == 0:
+        a = (a + k)
+        print(a)
+        k += 5
+# Total amount
+print(a + b)
