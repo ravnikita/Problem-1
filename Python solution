@@ -1,3 +1,4 @@
+#Complex and incorrect code ((
 array = [i + 3 for i in range(998)]  # We set an array. 0,1,2 are not needed, we get rid of them
 # array = [3, 4..999, 1000]
 print(array)
